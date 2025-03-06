@@ -1,0 +1,156 @@
+.body{ 
+    background-color: rgba(0, 0, 0, 0.899);
+    width: 50%;      /* Main content takes 50% */
+    margin: 0 auto; 
+    margin-top: 40px;
+}
+.img1{
+    width: 90px; 
+    height: 90px;
+    margin-right:350px ; 
+
+
+}
+.header{
+      display: flex;
+}
+.ul {
+    display: flex;
+    gap:50px;
+    font-size: 20px;
+    
+    }
+.li{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+   
+    display: inline-block;
+    position: relative;
+}
+.ul .li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 3px;
+    background-color: orange;
+    transform: scale(1.02); /* Slight zoom on hover */
+    transition: 0.3s ease-in-out;
+    }
+.ul .li:hover::after {
+    width: 100%;
+}
+.li:hover{
+    transform: scale(1.02); /* Slight zoom on hover */
+    transition: 0.3s ease-in-out; 
+}
+
+.hlo{
+    color: #FF914D;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: -40px;
+}
+.name{
+color: white;
+font-size: 50px;
+
+}
+.matter{
+color: white;
+font-size: 25px;
+margin-top: -40px;
+}
+.article1{
+    display: flex;
+    margin-top:100px;
+}
+.section2{
+    margin-left: 45px;
+margin-top: 25px;
+    height: 70px;
+    width: 70px;
+}
+.img2{
+    width:500px ;
+    height:500px;
+}
+.article2{
+ margin-top: 40px;
+}
+.about{
+    color: white;
+    max-width: 600px;
+            margin: 50px auto;
+           height: 50px;
+            border-radius: 10px;
+            border: 2px solid #FF914D; /* Soft orange border */
+            background-color: rgba(255, 145, 77, 0.1);
+            }
+.you{
+    margin-left: 140px;
+}
+.class h2 {
+    color: #FF914D;
+    font-size: 24px;
+    margin-bottom: 10px; 
+}
+.class p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.button {
+    text-decoration: none;
+    width: 450px;
+     margin-left: 50px;
+            height: 70px;
+            font-size: 20px;
+            padding: 15px;
+            background-color: rgb(240, 90, 15);
+           border: none;
+            border-radius: 5px;
+            cursor: pointer;
+           
+}
+.button:hover{
+    transform: scale(1.02); /* Slight zoom on hover */
+    transition: 0.3s ease-in-out;
+}
+
+.a1{
+    text-decoration: none;
+color: white;
+font-weight: bold;
+}
+.article2{
+    margin-top: 60px;
+    display: flex;
+}
+.section3{
+     margin-left: 250px;
+}
+.hema{
+    font-size: 30px;
+    color:#FF914D;
+}
+.value{
+    color: white;
+    font-size: 30px;
+}
+
+.class  p {
+    font-size: 19px; /* Increases paragraph font size */
+    line-height: 1.6;
+    color: white;
+   
+}
+.par{
+    color: white;
+   margin-top: 150px;
+    font-size: 20px;
+    margin-left: 30px;
+}
